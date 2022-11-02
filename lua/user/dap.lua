@@ -16,6 +16,7 @@ end
 dap_install.setup({})
 
 dap_install.config("python", {})
+require('dap-python').setup('/home/kaushal/.local/lib/python3.10/site-packages/debugpy')
 -- add other configs here
 
 dapui.setup({
