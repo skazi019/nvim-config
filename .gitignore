@@ -39,8 +39,6 @@ luac.out
 *.x86_64
 *.hex
 
-lua/user/colorscheme.lua
-
 plugin/packer_compiled.lua
 java-debug/
 vscode-java-test/
