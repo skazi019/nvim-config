@@ -38,6 +38,11 @@ keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 
+-- Better Delete
+keymap("n", "d", '"_d', opts)
+keymap("v", "d", '"_d', opts)
+keymap("n", "dw", '"_dw', opts)
+
 -- Better paste
 keymap("v", "p", '"_dP', opts)
 
