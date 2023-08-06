@@ -16,8 +16,24 @@ end
 dap_install.setup({})
 
 dap_install.config("python", {})
-require('dap-python').setup()
+dap_install.config("streamlit", {})
+
 -- add other configs here
+
+-- local base_path = os.getenv("VIRTUAL_ENV")
+-- local venv = base_path .. "/bin/python"
+
+require("dap-python").setup() -- not required to pass path of /python since it tries to find automaitcally
+
+-- 06-08-2023: Streamlit configuration added
+table.insert(dap.configurations.python, {
+	type = "python",
+	request = "launch",
+	name = "Streamlit",
+    module = "streamlit",
+	args = { "run", "${file}" },
+})
+
 
 dapui.setup({
 	expand_lines = true,
