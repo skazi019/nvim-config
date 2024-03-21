@@ -26,6 +26,22 @@ make CMAKE_BUILD_TYPE=Release
 sudo make install
 ```
 
+---
+
+## Windows Powershell set-up
+
+Step 1: Install Neovim on Windows Powershell
+```scoop install neovim``` After installation, make sure to run the command nvim and then do a :checkhealth to make sure the installation was successful and correct.
+
+Step 2: Install nodejs 
+```scoop install nodejs```
+
+
+Step 2: Create the config folder
+Navigate to ~\AppData\Local\ and then create a nvim folder there. Then clone this repo over there in the nvim folder you just created.
+
+
+
 ## Install the config
 
 Make sure to remove or move your current `nvim` directory
