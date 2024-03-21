@@ -26,7 +26,11 @@ make CMAKE_BUILD_TYPE=Release
 sudo make install
 ```
 
----
+## Install pre-requisites
+ - ripgrep
+ - nodejs
+ - python and pip
+ - lazygit
 
 ## Windows Powershell set-up
 
