@@ -37,17 +37,16 @@ Step 2: Install nodejs
 ```scoop install nodejs```
 
 
-Step 2: Create the config folder
-Navigate to ~\AppData\Local\ and then create a nvim folder there. Then clone this repo over there in the nvim folder you just created.
-
-
-
 ## Install the config
 
 Make sure to remove or move your current `nvim` directory
 
 ```sh
 git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
+```
+For Windows:
+```sh
+git clone https://github.com/LunarVim/nvim-basic-ide.git ~\AppData\Local\nvim
 ```
 
 Run `nvim` and wait for the plugins to be installed
@@ -99,6 +98,11 @@ We will also need `ripgrep` for Telescope to work:
 
   ```sh
   sudo apt install ripgrep
+  ```
+  For Windows:
+  
+  ```sh
+  scoop install ripgrep
   ```
 
 ---
