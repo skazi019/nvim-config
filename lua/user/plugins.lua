@@ -92,17 +92,17 @@ return packer.startup(function(use)
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
-    commit = "4d76587eeca434a47f460fb7f1c900de49400688",
+    commit = "c65413f2ac20d1d4b91fe4eb32d9d25525b34b83",
   }
 
   -- Git
   use { "lewis6991/gitsigns.nvim", commit = "f98c85e7c3d65a51f45863a34feb4849c82f240f" }
 
   -- DAP
-  use { "mfussenegger/nvim-dap", commit = "6b12294a57001d994022df8acbe2ef7327d30587" }
+  use { "mfussenegger/nvim-dap", commit = "c1695e500c7d552a0a19953a9aefcc89178fb1af" }
   use { "rcarriga/nvim-dap-ui", commit = "1cd4764221c91686dcf4d6b62d7a7b2d112e0b13" }
   use { "ravenxrz/DAPInstall.nvim", commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de" }
-  use { "mfussenegger/nvim-dap-python" }
+  use { "mfussenegger/nvim-dap-python", commit = "66560f0ebddf96604f7037e1efad3ba6942761e6" }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
