@@ -31,7 +31,7 @@ sudo make install
  - nodejs (`scoop install node`)
  - python and pip
  - lazygit (`scoop install lazygit`)
- - gcc compiler (`scoop install mingw`)
+ - gcc compiler (`scoop install mingw`) (if you're getting a treesitter error then check (this)[https://stackoverflow.com/questions/70373650/how-to-solve-treesitter-highlighter-error-executing-lua-problem-in-neovim-confi] link)
 
 ## Windows Powershell set-up
 
