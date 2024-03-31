@@ -27,10 +27,11 @@ sudo make install
 ```
 
 ## Install pre-requisites
- - ripgrep
- - nodejs
+ - ripgrep (`scoop install ripgrep`)
+ - nodejs (`scoop install node`)
  - python and pip
- - lazygit
+ - lazygit (`scoop install lazygit`)
+ - gcc compiler (`scoop install mingw`)
 
 ## Windows Powershell set-up
 
