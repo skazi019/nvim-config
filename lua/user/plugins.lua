@@ -57,7 +57,7 @@ return packer.startup(function(use)
   use { "akinsho/toggleterm.nvim", commit = "2a787c426ef00cb3488c11b14f5dcf892bbd0bda" }
   use { "ahmedkhalf/project.nvim", commit = "628de7e433dd503e782831fe150bb750e56e55d6" }
   use { "lewis6991/impatient.nvim", commit = "b842e16ecc1a700f62adb9802f8355b99b52a5a6" }
-  use { "lukas-reineke/indent-blankline.nvim", commit = "3d08501caef2329aba5121b753e903904088f7e6" }
+  use { "lukas-reineke/indent-blankline.nvim", commit = "0fe34b4c1b926e106d105d3ae88ef6cbf6743572" }
   use { "goolord/alpha-nvim", commit = "0bb6fc0646bcd1cdb4639737a1cee8d6e08bcc31" }
 
   -- Colorschemes
